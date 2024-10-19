@@ -21,3 +21,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "Notes"
 include(":app")
+include(":feature:notelist")
+include(":feature:noteview")
+include(":shared:notes")
+include(":design")
+include(":shared:data")
