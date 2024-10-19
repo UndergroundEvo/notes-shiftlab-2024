@@ -3,12 +3,11 @@ package com.shift.notes.data.repository
 import com.shift.notes.data.convert.toDomain
 import com.shift.notes.data.convert.toEntity
 import com.shift.notes.data.database.NoteDao
-import com.shift.notes.data.entity.NoteEntity
 import com.shift.notes.domain.model.Note
 import com.shift.notes.domain.repository.NoteRepository
 
- /*тут не совсем эффективная работа с бд,
- надо везде работать по note.id а по самой Note*/
+/*тут не совсем эффективная работа с бд,
+надо везде работать по note.id а по самой Note*/
 
 class NoteRepositoryImpl(
     private val noteDao: NoteDao
