@@ -2,6 +2,8 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("com.google.devtools.ksp")
+
 }
 
 android {
@@ -40,6 +42,24 @@ android {
 }
 
 dependencies {
+    implementation(project(":shared:notes"))
+    implementation(project(":feature:notelist"))
+    implementation(project(":feature:noteview"))
+
+    implementation(project.dependencies.platform("io.insert-koin:koin-bom:4.0.0"))
+    implementation(libs.insert.koin.koin.android)
+    implementation(libs.insert.koin.koin.core)
+    implementation(libs.koin.androidx.compose)
+    implementation(libs.koin.compose)
+    implementation(libs.koin.compose.viewmodel)
+    implementation(libs.koin.compose.viewmodel.navigation)
+
+    implementation ("androidx.navigation:navigation-compose:2.8.2")
+    implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.room.runtime)
+    ksp(libs.androidx.room.compiler)
+
+    implementation(libs.kotlinx.serialization.json)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
