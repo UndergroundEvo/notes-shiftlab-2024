@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bd_error">Database Error</string>
+    <string name="check_multi">Select multiple</string>
+    <string name="create_regular">Create a regular note</string>
+    <string name="create_image">Create a note with a picture</string>
+    <string name="create_word">Create</string>
+    <string name="empty_screen">Nothing found</string>
+    <string name="delete_note_alert">"Delete "</string>
+    <string name="delete_note_alert_continue">note?</string>
+    <string name="delete_dialog_word">Delete</string>
+    <string name="cancel_dialog_word">Cancel</string>
+    <string name="search_title">Enter title ot tag of note</string>
+    <string name="search_word">Search</string>
+</resources>

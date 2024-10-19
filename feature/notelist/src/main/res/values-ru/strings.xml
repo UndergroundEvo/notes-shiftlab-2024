@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bd_error">Ошибка базы данных</string>
+    <string name="check_multi">Выбрать несколько</string>
+    <string name="create_regular">Создать обычную заметку</string>
+    <string name="create_image">Создать заметку с картинкой</string>
+    <string name="create_word">Создать</string>
+    <string name="empty_screen">Ничего не найдено</string>
+    <string name="delete_note_alert">"Удалить "</string>
+    <string name="delete_note_alert_continue">" записку?"</string>
+    <string name="delete_dialog_word">Удалить</string>
+    <string name="cancel_dialog_word">Отмена</string>
+    <string name="search_title">Введите заголовок или тег заметки</string>
+    <string name="search_word">Поиск</string>
+</resources>
