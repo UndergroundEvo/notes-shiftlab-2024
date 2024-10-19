@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="note_open_error">Error when opening a note</string>
+    <string name="note_return">Back to notes</string>
+    <string name="note_edit">Edit</string>
+    <string name="ready_note_word">Ready</string>
+    <string name="notification_word">Notification</string>
+    <string name="image_word">Image</string>
+    <string name="title_word">Title</string>
+    <string name="content_word">Content</string>
+    <string name="add_tag">Add tag to note:</string>
+    <string name="tag_word">Tag</string>
+</resources>

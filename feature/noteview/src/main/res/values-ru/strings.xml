@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="note_open_error">Ошибка при открытии заметки</string>
+    <string name="note_return">К списку заметок</string>
+    <string name="note_edit">Редактирование</string>
+    <string name="ready_note_word">Готово</string>
+    <string name="notification_word">Уведомление</string>
+    <string name="image_word">Картинка</string>
+    <string name="title_word">Заголовок</string>
+    <string name="content_word">Содержимое</string>
+    <string name="add_tag">Добавить тег к заметке:</string>
+    <string name="tag_word">Тэг</string>
+</resources>
